@@ -1,0 +1,501 @@
+[
+  {
+    "customDnsConfigs": [],
+    "customNetworkInterfaceName": "plep-app-stlo-aiassistant-web-001-nic",
+    "etag": "W/\"f2e0e4cf-38ef-41bb-8b42-d4c08ad617a2\"",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-app-stlo-aiassistant-web-001",
+    "ipConfigurations": [
+      {
+        "etag": "W/\"f2e0e4cf-38ef-41bb-8b42-d4c08ad617a2\"",
+        "groupId": "sites",
+        "memberName": "sites",
+        "name": "sites",
+        "privateIPAddress": "10.250.26.10",
+        "type": "Microsoft.Network/privateEndpoints/ipConfigurations"
+      }
+    ],
+    "location": "japaneast",
+    "manualPrivateLinkServiceConnections": [],
+    "name": "plep-app-stlo-aiassistant-web-001",
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/networkInterfaces/plep-app-stlo-aiassistant-web-001-nic",
+        "resourceGroup": "rg-stlo-aiassistant-01"
+      }
+    ],
+    "privateLinkServiceConnections": [
+      {
+        "etag": "W/\"f2e0e4cf-38ef-41bb-8b42-d4c08ad617a2\"",
+        "groupIds": [
+          "sites"
+        ],
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-app-stlo-aiassistant-web-001/privateLinkServiceConnections/plep-app-stlo-aiassistant-web-001",
+        "name": "plep-app-stlo-aiassistant-web-001",
+        "privateLinkServiceConnectionState": {
+          "actionsRequired": "None",
+          "description": "",
+          "status": "Approved"
+        },
+        "privateLinkServiceId": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourcegroups/rg-stlo-aiassistant-01/providers/Microsoft.Web/sites/app-stlo-aiassistant-web-001",
+        "provisioningState": "Succeeded",
+        "resourceGroup": "rg-stlo-aiassistant-01",
+        "type": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections"
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "subnet": {
+      "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-comycloudnet-01/providers/Microsoft.Network/virtualNetworks/vnet-coaiassistant-01/subnets/snet-stlo-aiassistant-back-01",
+      "resourceGroup": "rg-comycloudnet-01"
+    },
+    "tags": {},
+    "type": "Microsoft.Network/privateEndpoints"
+  },
+  {
+    "customDnsConfigs": [],
+    "customNetworkInterfaceName": "plep-app-stlo-aiassistant-web-01-nic",
+    "etag": "W/\"0fc6cbe0-f603-4c65-a6c3-c6556da618f7\"",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-app-stlo-aiassistant-web-01",
+    "ipConfigurations": [
+      {
+        "etag": "W/\"0fc6cbe0-f603-4c65-a6c3-c6556da618f7\"",
+        "groupId": "sites",
+        "memberName": "sites",
+        "name": "sites",
+        "privateIPAddress": "10.250.26.4",
+        "type": "Microsoft.Network/privateEndpoints/ipConfigurations"
+      }
+    ],
+    "location": "japaneast",
+    "manualPrivateLinkServiceConnections": [],
+    "name": "plep-app-stlo-aiassistant-web-01",
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/networkInterfaces/plep-app-stlo-aiassistant-web-01-nic",
+        "resourceGroup": "rg-stlo-aiassistant-01"
+      }
+    ],
+    "privateLinkServiceConnections": [
+      {
+        "etag": "W/\"0fc6cbe0-f603-4c65-a6c3-c6556da618f7\"",
+        "groupIds": [
+          "sites"
+        ],
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-app-stlo-aiassistant-web-01/privateLinkServiceConnections/plep-app-stlo-aiassistant-web-01",
+        "name": "plep-app-stlo-aiassistant-web-01",
+        "privateLinkServiceConnectionState": {
+          "actionsRequired": "None",
+          "description": "",
+          "status": "Approved"
+        },
+        "privateLinkServiceId": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Web/sites/app-stlo-aiassistant-web-01",
+        "provisioningState": "Succeeded",
+        "resourceGroup": "rg-stlo-aiassistant-01",
+        "type": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections"
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "subnet": {
+      "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-comycloudnet-01/providers/Microsoft.Network/virtualNetworks/vnet-coaiassistant-01/subnets/snet-stlo-aiassistant-back-01",
+      "resourceGroup": "rg-comycloudnet-01"
+    },
+    "tags": {
+      "Aplgroup": "システム基盤開発G",
+      "Environment": "ST環境",
+      "Owner": "MY",
+      "System": "AIアシスタントプライベートエンドポイント",
+      "Type": "AIアシスタント"
+    },
+    "type": "Microsoft.Network/privateEndpoints"
+  },
+  {
+    "customDnsConfigs": [
+      {
+        "fqdn": "acrcoloaiassistant01.japaneast.data.azurecr.io",
+        "ipAddresses": [
+          "10.250.26.12"
+        ]
+      },
+      {
+        "fqdn": "acrcoloaiassistant01.azurecr.io",
+        "ipAddresses": [
+          "10.250.26.13"
+        ]
+      }
+    ],
+    "customNetworkInterfaceName": "",
+    "etag": "W/\"ee3980f1-44ad-4553-ba1f-e1c7ac8d5801\"",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-colo-acraiassistant-01",
+    "ipConfigurations": [],
+    "location": "japaneast",
+    "manualPrivateLinkServiceConnections": [],
+    "name": "plep-colo-acraiassistant-01",
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/networkInterfaces/plep-colo-acraiassistant-01.nic.5a6917bd-a33a-4191-91f3-b720b9f6fa87",
+        "resourceGroup": "rg-stlo-aiassistant-01"
+      }
+    ],
+    "privateLinkServiceConnections": [
+      {
+        "etag": "W/\"ee3980f1-44ad-4553-ba1f-e1c7ac8d5801\"",
+        "groupIds": [
+          "registry"
+        ],
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-colo-acraiassistant-01/privateLinkServiceConnections/plep-colo-acraiassistant-01_40b84b03-7cd2-4e00-937f-d55b54fab015",
+        "name": "plep-colo-acraiassistant-01_40b84b03-7cd2-4e00-937f-d55b54fab015",
+        "privateLinkServiceConnectionState": {
+          "actionsRequired": "None",
+          "description": "Auto-Approved",
+          "status": "Approved"
+        },
+        "privateLinkServiceId": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourcegroups/rg-stlo-aiassistant-01/providers/Microsoft.ContainerRegistry/registries/acrcoloaiassistant01",
+        "provisioningState": "Succeeded",
+        "resourceGroup": "rg-stlo-aiassistant-01",
+        "type": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections"
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "subnet": {
+      "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-comycloudnet-01/providers/Microsoft.Network/virtualNetworks/vnet-coaiassistant-01/subnets/snet-stlo-aiassistant-back-01",
+      "resourceGroup": "rg-comycloudnet-01"
+    },
+    "tags": {},
+    "type": "Microsoft.Network/privateEndpoints"
+  },
+  {
+    "customDnsConfigs": [
+      {
+        "fqdn": "colo-sqlsvr-aiassistant010.database.windows.net",
+        "ipAddresses": [
+          "10.250.26.11"
+        ]
+      }
+    ],
+    "customNetworkInterfaceName": "",
+    "etag": "W/\"9ac62963-6385-4f22-a802-0c5755912949\"",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-colo-sqldbaiassistant-01",
+    "ipConfigurations": [],
+    "location": "japaneast",
+    "manualPrivateLinkServiceConnections": [],
+    "name": "plep-colo-sqldbaiassistant-01",
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/networkInterfaces/plep-colo-sqldbaiassistant-01.nic.50195811-380d-4074-869e-1a7c17e180de",
+        "resourceGroup": "rg-stlo-aiassistant-01"
+      }
+    ],
+    "privateLinkServiceConnections": [
+      {
+        "etag": "W/\"9ac62963-6385-4f22-a802-0c5755912949\"",
+        "groupIds": [
+          "SqlServer"
+        ],
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-colo-sqldbaiassistant-01/privateLinkServiceConnections/plep-colo-sqldbaiassistant-01",
+        "name": "plep-colo-sqldbaiassistant-01",
+        "privateLinkServiceConnectionState": {
+          "actionsRequired": "None",
+          "description": "Auto-approved",
+          "status": "Approved"
+        },
+        "privateLinkServiceId": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Sql/servers/colo-sqlsvr-aiassistant010",
+        "provisioningState": "Succeeded",
+        "resourceGroup": "rg-stlo-aiassistant-01",
+        "type": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections"
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "subnet": {
+      "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-comycloudnet-01/providers/Microsoft.Network/virtualNetworks/vnet-coaiassistant-01/subnets/snet-stlo-aiassistant-back-01",
+      "resourceGroup": "rg-comycloudnet-01"
+    },
+    "tags": {},
+    "type": "Microsoft.Network/privateEndpoints"
+  },
+  {
+    "customDnsConfigs": [],
+    "customNetworkInterfaceName": "plep-cosno-stlo-aiassistant-general-db001-nic",
+    "etag": "W/\"5dc8d0e1-2720-49c4-a785-a915e8761158\"",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-cosno-stlo-aiassistant-general-db001",
+    "ipConfigurations": [
+      {
+        "etag": "W/\"5dc8d0e1-2720-49c4-a785-a915e8761158\"",
+        "groupId": "Sql",
+        "memberName": "cosno-stlo-aiassistant-general-db001-japaneast",
+        "name": "cosno-stlo-aiassistant-general-db001-japaneast",
+        "privateIPAddress": "10.250.26.8",
+        "type": "Microsoft.Network/privateEndpoints/ipConfigurations"
+      },
+      {
+        "etag": "W/\"5dc8d0e1-2720-49c4-a785-a915e8761158\"",
+        "groupId": "Sql",
+        "memberName": "cosno-stlo-aiassistant-general-db001",
+        "name": "cosno-stlo-aiassistant-general-db001",
+        "privateIPAddress": "10.250.26.9",
+        "type": "Microsoft.Network/privateEndpoints/ipConfigurations"
+      }
+    ],
+    "location": "japaneast",
+    "manualPrivateLinkServiceConnections": [],
+    "name": "plep-cosno-stlo-aiassistant-general-db001",
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/networkInterfaces/plep-cosno-stlo-aiassistant-general-db001-nic",
+        "resourceGroup": "rg-stlo-aiassistant-01"
+      }
+    ],
+    "privateLinkServiceConnections": [
+      {
+        "etag": "W/\"5dc8d0e1-2720-49c4-a785-a915e8761158\"",
+        "groupIds": [
+          "Sql"
+        ],
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-cosno-stlo-aiassistant-general-db001/privateLinkServiceConnections/plep-cosno-stlo-aiassistant-general-db001",
+        "name": "plep-cosno-stlo-aiassistant-general-db001",
+        "privateLinkServiceConnectionState": {
+          "actionsRequired": "None",
+          "description": "",
+          "status": "Approved"
+        },
+        "privateLinkServiceId": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.DocumentDb/databaseAccounts/cosno-stlo-aiassistant-general-db001",
+        "provisioningState": "Succeeded",
+        "resourceGroup": "rg-stlo-aiassistant-01",
+        "type": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections"
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "subnet": {
+      "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-comycloudnet-01/providers/Microsoft.Network/virtualNetworks/vnet-coaiassistant-01/subnets/snet-stlo-aiassistant-back-01",
+      "resourceGroup": "rg-comycloudnet-01"
+    },
+    "tags": {
+      "Aplgroup": "システム基盤開発G",
+      "Environment": "ST環境",
+      "Owner": "MY",
+      "System": "AIアシスタントプライベートエンドポイント",
+      "Type": "AIアシスタント"
+    },
+    "type": "Microsoft.Network/privateEndpoints"
+  },
+  {
+    "customDnsConfigs": [],
+    "customNetworkInterfaceName": "plep-oai-stlo-aiassistant-001-nic",
+    "etag": "W/\"5cc29789-fa45-42db-bfad-69618bf801fb\"",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-oai-stlo-aiassistant-001",
+    "ipConfigurations": [],
+    "location": "japaneast",
+    "manualPrivateLinkServiceConnections": [],
+    "name": "plep-oai-stlo-aiassistant-001",
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/networkInterfaces/plep-oai-stlo-aiassistant-001-nic",
+        "resourceGroup": "rg-stlo-aiassistant-01"
+      }
+    ],
+    "privateLinkServiceConnections": [
+      {
+        "etag": "W/\"5cc29789-fa45-42db-bfad-69618bf801fb\"",
+        "groupIds": [
+          "account"
+        ],
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-oai-stlo-aiassistant-001/privateLinkServiceConnections/plep-oai-stlo-aiassistant-001",
+        "name": "plep-oai-stlo-aiassistant-001",
+        "privateLinkServiceConnectionState": {
+          "actionsRequired": "None",
+          "description": "Approved",
+          "status": "Approved"
+        },
+        "privateLinkServiceId": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.CognitiveServices/accounts/oai-stlo-aiassistant-01",
+        "provisioningState": "Succeeded",
+        "resourceGroup": "rg-stlo-aiassistant-01",
+        "type": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections"
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "subnet": {
+      "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-comycloudnet-01/providers/Microsoft.Network/virtualNetworks/vnet-coaiassistant-01/subnets/snet-stlo-aiassistant-back-01",
+      "resourceGroup": "rg-comycloudnet-01"
+    },
+    "tags": {},
+    "type": "Microsoft.Network/privateEndpoints"
+  },
+  {
+    "customDnsConfigs": [],
+    "customNetworkInterfaceName": "plep-oai-stlo-aiassistant-01-nic",
+    "etag": "W/\"c81c7c16-3b5f-4ea6-ba7c-983018b3ba0c\"",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-oai-stlo-aiassistant-01",
+    "ipConfigurations": [
+      {
+        "etag": "W/\"c81c7c16-3b5f-4ea6-ba7c-983018b3ba0c\"",
+        "groupId": "account",
+        "memberName": "default",
+        "name": "default",
+        "privateIPAddress": "10.250.26.7",
+        "type": "Microsoft.Network/privateEndpoints/ipConfigurations"
+      }
+    ],
+    "location": "japaneast",
+    "manualPrivateLinkServiceConnections": [],
+    "name": "plep-oai-stlo-aiassistant-01",
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/networkInterfaces/plep-oai-stlo-aiassistant-01-nic",
+        "resourceGroup": "rg-stlo-aiassistant-01"
+      }
+    ],
+    "privateLinkServiceConnections": [
+      {
+        "etag": "W/\"c81c7c16-3b5f-4ea6-ba7c-983018b3ba0c\"",
+        "groupIds": [
+          "account"
+        ],
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-oai-stlo-aiassistant-01/privateLinkServiceConnections/plep-oai-stlo-aiassistant-01",
+        "name": "plep-oai-stlo-aiassistant-01",
+        "privateLinkServiceConnectionState": {
+          "actionsRequired": "",
+          "description": "connection deleted",
+          "status": "Disconnected"
+        },
+        "privateLinkServiceId": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.CognitiveServices/accounts/oai-stlo-aiassistant-01",
+        "provisioningState": "Succeeded",
+        "resourceGroup": "rg-stlo-aiassistant-01",
+        "type": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections"
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "subnet": {
+      "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-comycloudnet-01/providers/Microsoft.Network/virtualNetworks/vnet-coaiassistant-01/subnets/snet-stlo-aiassistant-back-01",
+      "resourceGroup": "rg-comycloudnet-01"
+    },
+    "tags": {
+      "Aplgroup": "システム基盤開発G",
+      "Environment": "ST環境",
+      "Owner": "MY",
+      "System": "AIアシスタントプライベートエンドポイント",
+      "Type": "AIアシスタント"
+    },
+    "type": "Microsoft.Network/privateEndpoints"
+  },
+  {
+    "customDnsConfigs": [],
+    "customNetworkInterfaceName": "plep-sastloaiassistantdocs-nic",
+    "etag": "W/\"dca012c1-8b66-4dbb-9be6-ee29b5d6b996\"",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-sastloaiassistantdocs",
+    "ipConfigurations": [
+      {
+        "etag": "W/\"dca012c1-8b66-4dbb-9be6-ee29b5d6b996\"",
+        "groupId": "blob",
+        "memberName": "blob",
+        "name": "blob",
+        "privateIPAddress": "10.250.26.6",
+        "type": "Microsoft.Network/privateEndpoints/ipConfigurations"
+      }
+    ],
+    "location": "japaneast",
+    "manualPrivateLinkServiceConnections": [],
+    "name": "plep-sastloaiassistantdocs",
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/networkInterfaces/plep-sastloaiassistantdocs-nic",
+        "resourceGroup": "rg-stlo-aiassistant-01"
+      }
+    ],
+    "privateLinkServiceConnections": [
+      {
+        "etag": "W/\"dca012c1-8b66-4dbb-9be6-ee29b5d6b996\"",
+        "groupIds": [
+          "blob"
+        ],
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-sastloaiassistantdocs/privateLinkServiceConnections/plep-sastloaiassistantdocs",
+        "name": "plep-sastloaiassistantdocs",
+        "privateLinkServiceConnectionState": {
+          "actionsRequired": "None",
+          "description": "Auto-Approved",
+          "status": "Approved"
+        },
+        "privateLinkServiceId": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Storage/storageAccounts/sastloaiassistantdocs",
+        "provisioningState": "Succeeded",
+        "resourceGroup": "rg-stlo-aiassistant-01",
+        "type": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections"
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "subnet": {
+      "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-comycloudnet-01/providers/Microsoft.Network/virtualNetworks/vnet-coaiassistant-01/subnets/snet-stlo-aiassistant-back-01",
+      "resourceGroup": "rg-comycloudnet-01"
+    },
+    "tags": {
+      "Aplgroup": "システム基盤開発G",
+      "Environment": "ST環境",
+      "Owner": "MY",
+      "System": "AIアシスタントプライベートエンドポイント",
+      "Type": "AIアシスタント"
+    },
+    "type": "Microsoft.Network/privateEndpoints"
+  },
+  {
+    "customDnsConfigs": [],
+    "customNetworkInterfaceName": "plep-srch-stlo-aiassistant-01-nic",
+    "etag": "W/\"4873943f-973d-4351-bab9-9f959050be75\"",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-srch-stlo-aiassistant-01",
+    "ipConfigurations": [
+      {
+        "etag": "W/\"4873943f-973d-4351-bab9-9f959050be75\"",
+        "groupId": "searchService",
+        "memberName": "searchService",
+        "name": "searchService",
+        "privateIPAddress": "10.250.26.5",
+        "type": "Microsoft.Network/privateEndpoints/ipConfigurations"
+      }
+    ],
+    "location": "japaneast",
+    "manualPrivateLinkServiceConnections": [],
+    "name": "plep-srch-stlo-aiassistant-01",
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/networkInterfaces/plep-srch-stlo-aiassistant-01-nic",
+        "resourceGroup": "rg-stlo-aiassistant-01"
+      }
+    ],
+    "privateLinkServiceConnections": [
+      {
+        "etag": "W/\"4873943f-973d-4351-bab9-9f959050be75\"",
+        "groupIds": [
+          "searchService"
+        ],
+        "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateEndpoints/plep-srch-stlo-aiassistant-01/privateLinkServiceConnections/plep-srch-stlo-aiassistant-01",
+        "name": "plep-srch-stlo-aiassistant-01",
+        "privateLinkServiceConnectionState": {
+          "actionsRequired": "None",
+          "description": "Auto-approved",
+          "status": "Approved"
+        },
+        "privateLinkServiceId": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Search/searchServices/srch-stlo-aiassistant-01",
+        "provisioningState": "Succeeded",
+        "resourceGroup": "rg-stlo-aiassistant-01",
+        "type": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections"
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "subnet": {
+      "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-comycloudnet-01/providers/Microsoft.Network/virtualNetworks/vnet-coaiassistant-01/subnets/snet-stlo-aiassistant-back-01",
+      "resourceGroup": "rg-comycloudnet-01"
+    },
+    "tags": {
+      "Aplgroup": "システム基盤開発G",
+      "Environment": "ST環境",
+      "Owner": "MY",
+      "System": "AIアシスタントプライベートエンドポイント",
+      "Type": "AIアシスタント"
+    },
+    "type": "Microsoft.Network/privateEndpoints"
+  }
+]
