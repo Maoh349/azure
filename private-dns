@@ -1,0 +1,33 @@
+[
+  {
+    "etag": "86bf1d77-beb3-4da0-bfdc-56229764c805",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateDnsZones/privatelink.database.windows.net",
+    "location": "global",
+    "maxNumberOfRecordSets": 25000,
+    "maxNumberOfVirtualNetworkLinks": 1000,
+    "maxNumberOfVirtualNetworkLinksWithRegistration": 100,
+    "name": "privatelink.database.windows.net",
+    "numberOfRecordSets": 2,
+    "numberOfVirtualNetworkLinks": 1,
+    "numberOfVirtualNetworkLinksWithRegistration": 0,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "tags": {},
+    "type": "Microsoft.Network/privateDnsZones"
+  },
+  {
+    "etag": "bc07beff-d92c-44c9-967c-3a7dcf1d73b9",
+    "id": "/subscriptions/534cab96-dd9c-4d74-803e-8d96e167a62d/resourceGroups/rg-stlo-aiassistant-01/providers/Microsoft.Network/privateDnsZones/privatelink.redis.cache.windows.net",
+    "location": "global",
+    "maxNumberOfRecordSets": 25000,
+    "maxNumberOfVirtualNetworkLinks": 1000,
+    "maxNumberOfVirtualNetworkLinksWithRegistration": 100,
+    "name": "privatelink.redis.cache.windows.net",
+    "numberOfRecordSets": 1,
+    "numberOfVirtualNetworkLinks": 0,
+    "numberOfVirtualNetworkLinksWithRegistration": 0,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-stlo-aiassistant-01",
+    "type": "Microsoft.Network/privateDnsZones"
+  }
+]
